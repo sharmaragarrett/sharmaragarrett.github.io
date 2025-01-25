@@ -4,7 +4,7 @@ This is my lab guessing game using mermaid to show it works visually
 
 ```mermaid
 flowchart TD
-Start([Start]) --> B(generate a random integer between 1 and 10)
+ Start([Start]) --> B(generate a random integer between 1 and 10)
 B--> C(Guess 3)
 C--> D(If integer) & E(If not integer)
 E--> B
