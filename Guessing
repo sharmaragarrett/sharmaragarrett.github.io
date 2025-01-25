@@ -9,5 +9,5 @@ E --> B
 D --> F(Higher)
 F --> H(Guess 8)
 H --> I(correct)
-I --> J([End])
+I -->J([End])
 ```
