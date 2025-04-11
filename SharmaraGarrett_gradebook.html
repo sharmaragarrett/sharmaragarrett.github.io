@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sharmara Garrett's Gradebook</title>
+  <style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align: center;">Gradebook</h2>
+  <table id="gradebookTable">
+    <tr>
+      <th>Sharmara Garrett</th>
+      <th>Assignment 1</th>
+      <th>Assignment 2</th>
+      <th>Assignment 3</th>
+    </tr>
+    <!-- Rows will be added dynamically in future -->
+  </table>
+
+  <script src="gradebook.js"></script>
+</body>
+</html>
+// Stub: Fetch grade data from the database
+function fetchGradeData() {
+  console.log("fetchGradeData() called - will fetch data in future.");
+}
+
+// Stub: Populate the gradebook table with fetched data
+function populateGradebook(data) {
+  console.log("populateGradebook() called with data:", data);
+}
+
+// Call stubs to test
+fetchGradeData();
+populateGradebook([]);
